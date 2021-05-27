@@ -69,11 +69,28 @@ void reserveTest()
         }
     }
 }
+void atTest()
+{
+    cout << "          At test: " << endl;
+    vector <int> v; 
+    int sizes = 10;
+
+    for(int i=0; i<sizes; i++)
+    {
+        v.push_back(i);
+    }
+    cout << "Vektoriaus v duomenys:";
+    for (unsigned i=0; i<v.size(); i++)
+        cout << ' ' << v.at(i);
+    cout << endl;
+    cout << "Turetu buti: 0 1 2 3 4 5 6 7 8 9" << endl;
+}
 int main()
 {
     assignTest();
     popbackTest();
     pushbackTest();
     reserveTest();
+    atTest();
     return 0;
 }
