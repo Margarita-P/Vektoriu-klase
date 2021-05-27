@@ -16,7 +16,7 @@ Vector klasė veikia sparčiau nei std::vector, taip turbūt yra, nes vector kla
 ## Atminties perskirstymo analizė  
 Perskirstymas įvyksta tada kai patenkinama sąlyga: capacity() == size();  
 Buvo lyginamas Versijos-2.0 veikimas su vector klase ir std::vector.   
-Vector klasė - įvyko 20 persidengimų programai veikiant su 1000000 studentų duomenų failu.
+Vector klasė - įvyko 20 persidengimų programai veikiant su 1000000 studentų duomenų failu.  
 Std::vector - taip pat 20 persidengimų. 
 ## Spartos Analizė 2  
 Buvo lyginamas Versijos-2.0 veikimas su vector klase ir std::vector.  
