@@ -10,6 +10,7 @@ class Vector
     typedef T value_type;
     typedef T *iterator;
     typedef const T *const_iterator;
+    typedef const T &const_reference;
     iterator duom; 
     iterator laisva; 
     iterator limitas; 
@@ -49,6 +50,11 @@ class Vector
         {
             grow(n);
         }
+    }
+
+     reference at(size_type n) 
+    {
+        return duom[n];
     }
 
     void resize(size_type n) 
