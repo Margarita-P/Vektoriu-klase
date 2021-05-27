@@ -13,7 +13,7 @@ Buvo paimtas vektorių klasės ir std::vector veikimo vidurkis:
 ![image](https://user-images.githubusercontent.com/79039786/119893330-e4f66880-bf43-11eb-9350-50c116414c42.png)  
 ### Išvada  
 Vector klasė veikia sparčiau nei std::vector, taip turbūt yra, nes vector klasėje nėra daugybės apribojimų, catch'ų, apsaugojimų, kurie taip pat užima laiko.  
-## Atminties perskirstimo analizė  
+## Atminties perskirstymo analizė  
 Perskirstymas įvyksta tada kai patenkinama sąlyga: capacity() == size();  
 Buvo lyginamas Versijos-2.0 veikimas su vector klase ir std::vector.   
 Vector klasė - įvyko 20 persidengimų programai veikiant su 1000000 studentų duomenų failu.
