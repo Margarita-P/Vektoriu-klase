@@ -14,14 +14,7 @@ void pushbackTest()
     {
         v.push_back(i);
     }
-    vector <int> v2;
-    int size1 = 10000; // 100000, 1000000, 10000000, 100000000;
-    auto start1 = chrono::steady_clock::now();
-    for(int i=0; i<size1; i++)
-    {
-        v.push_back(i);
-    }
-    cout << "vector push_back testas su " << (size + size1)/2 << " elementais truko: " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now() - start1).count() << " ms" << endl;
+    cout << "vector push_back testas su " << size << " elementais truko: " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now() - start).count() << " ms" << endl;
 }
 void assignTest()
 {
