@@ -11,15 +11,15 @@ Testas main.cpp ir main1.cpp pavadintas assignTest();
 Testas main.cpp ir main1.cpp pavadintas popbackTest();  
 3. Push_back.  
 Su šia funkcija pridedamas elementas vektoriaus gale, padidinamas vektoriaus dydis vienetu.
-![image](https://user-images.githubusercontent.com/79039786/119896289-7fa47680-bf47-11eb-9707-9fe99377fe4f.png)
+![image](https://user-images.githubusercontent.com/79039786/119896289-7fa47680-bf47-11eb-9707-9fe99377fe4f.png)  
 Testas main.cpp ir main1.cpp pavadintas pushbackTest();  
 4. Reserve.  
 Ši funkcija padaro, kad vector capacity būtų toks, kad užtektų palaikyti tam tikrą kiekį elementų.  
-![image](https://user-images.githubusercontent.com/79039786/119896316-87641b00-bf47-11eb-8a7c-489e7748d3a6.png)
+![image](https://user-images.githubusercontent.com/79039786/119896316-87641b00-bf47-11eb-8a7c-489e7748d3a6.png)  
 Testas main.cpp ir main1.cpp pavadintas reserveTest();  
 5. At.  
 Ši funkcija gražina nurodymą į tam tikrą elementą vektoriuje.  
-![image](https://user-images.githubusercontent.com/79039786/119896348-91861980-bf47-11eb-959d-c44662f6f4a9.png)
+![image](https://user-images.githubusercontent.com/79039786/119896348-91861980-bf47-11eb-959d-c44662f6f4a9.png)  
 Testas main.cpp ir main1.cpp pavadintas atTest();    
 ## Spartos Analizė  
 Buvo atlikta spartos analizė tarp vector klasės ir std::vector.  
