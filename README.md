@@ -13,7 +13,7 @@ Sukurta vektoriu klasė (konteineris), kuris veikia kaip std::vector.
 4. Reserve.  
 ![image](https://user-images.githubusercontent.com/79039786/119896316-87641b00-bf47-11eb-8a7c-489e7748d3a6.png)
 
-5. At.
+5. At.  
 ![image](https://user-images.githubusercontent.com/79039786/119896348-91861980-bf47-11eb-959d-c44662f6f4a9.png)
 
 ## Spartos Analizė  
