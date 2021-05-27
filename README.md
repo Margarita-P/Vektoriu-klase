@@ -2,9 +2,19 @@
 Sukurta vektoriu klasė (konteineris), kuris veikia kaip std::vector.  
 5 vector funkcijos:
 1. Assign.  
+![image](https://user-images.githubusercontent.com/79039786/119896229-6f8c9700-bf47-11eb-930a-dbdb899a2c70.png)  
 2. Pop_back.  
+![image](https://user-images.githubusercontent.com/79039786/119896255-76b3a500-bf47-11eb-9cab-b4f700d65a7e.png)
+
+
 3. Push_back.  
+![image](https://user-images.githubusercontent.com/79039786/119896289-7fa47680-bf47-11eb-9707-9fe99377fe4f.png)
+
 4. Reserve.  
+![image](https://user-images.githubusercontent.com/79039786/119896316-87641b00-bf47-11eb-8a7c-489e7748d3a6.png)
+
+5. At.
+![image](https://user-images.githubusercontent.com/79039786/119896348-91861980-bf47-11eb-959d-c44662f6f4a9.png)
 
 ## Spartos Analizė  
 Buvo atlikta spartos analizė tarp vector klasės ir std::vector.  
