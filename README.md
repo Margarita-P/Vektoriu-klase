@@ -7,7 +7,7 @@ Sukurta vektoriu klasė (konteineris), kuris veikia kaip std::vector.
 Testas main.cpp ir main1.cpp pavadintas assignTest();  
 2. Pop_back.  
 Ši funkcija ištrina paskutinį vektoriaus elemtentą ir sumažina dydį (size()) vienetu.  
-![image](https://user-images.githubusercontent.com/79039786/119896255-76b3a500-bf47-11eb-9cab-b4f700d65a7e.png)  
+![image](https://user-images.githubusercontent.com/79039786/119896255-76b3a500-bf47-11eb-9cab-b4f700d65a7e.png)   
 Testas main.cpp ir main1.cpp pavadintas popbackTest();  
 3. Push_back.  
 Su šia funkcija pridedamas elementas vektoriaus gale, padidinamas vektoriaus dydis vienetu.
