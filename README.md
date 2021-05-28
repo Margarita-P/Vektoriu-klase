@@ -23,7 +23,7 @@ Testas main.cpp ir main1.cpp pavadintas reserveTest();
 Testas main.cpp ir main1.cpp pavadintas atTest();    
 ## Spartos Analizė  
 Buvo atlikta spartos analizė tarp vector klasės ir std::vector.  
-Tušti vektoriai buvo užpildomi 10000, 100000, 1000000, 10000000, 100000000 int elemtų su push_back() funkcija.   
+Tušti vektoriai buvo užpildomi 10000, 100000, 1000000, 10000000, 100000000 int elemetų su push_back() funkcija.   
 Buvo paimtas vektorių klasės ir std::vector veikimo vidurkis:   
 ![image](https://user-images.githubusercontent.com/79039786/119893330-e4f66880-bf43-11eb-9350-50c116414c42.png)  
 ### Išvada  
