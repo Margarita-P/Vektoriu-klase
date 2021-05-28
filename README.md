@@ -25,7 +25,13 @@ Testas main.cpp ir main1.cpp pavadintas atTest();
 Buvo atlikta spartos analizė tarp vector klasės ir std::vector.  
 Tušti vektoriai buvo užpildomi 10000, 100000, 1000000, 10000000, 100000000 int elemetų su push_back() funkcija.   
 Buvo paimtas vektorių klasės ir std::vector veikimo vidurkis:   
-![image](https://user-images.githubusercontent.com/79039786/119893330-e4f66880-bf43-11eb-9350-50c116414c42.png)  
+![image](https://user-images.githubusercontent.com/79039786/119893330-e4f66880-bf43-11eb-9350-50c116414c42.png)    
+Persiskirstymų įvyko vidutiniškai tiek pat su visais failais:  
+10000 - 14  
+100000 - 17  
+1000000 - 20  
+10000000 - 24  
+100000000 - 27  
 ### Išvada  
 Vector klasė veikia sparčiau nei std::vector, taip turbūt yra, nes vector klasėje nėra daugybės apribojimų, catch'ų, apsaugojimų, kurie taip pat užima laiko.  
 ## Atminties perskirstymo analizė  
